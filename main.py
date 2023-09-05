@@ -4,14 +4,14 @@ from PIL.ExifTags import TAGS
 from datetime import datetime
 from colorama import Fore, Back, Style
 
-# end of initializers
-
 # auxilary variables
 previous = ""
 prevent_duplicate_addition = 1
 total_files = 0
 total_converted = 0
 alreadyPXL = 0
+
+# main function
 
 print(Fore.GREEN + "--BULK IMAGE RENAMER--" + Style.RESET_ALL)
 print('''the program scans the given folder and rename all of the jpg files
@@ -87,6 +87,6 @@ print(
 print("**created by meister - 29/3/2023**")
 print()
 
-
+# data used tor testing:
 # C:\Users\Omer\Desktop\test
 # PXL_20220903_123131431
